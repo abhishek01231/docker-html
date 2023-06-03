@@ -20,7 +20,7 @@ pipeline {
 
       steps {
 
-        sh 'docker build -t nginx:1.0 .'
+        sh 'docker build -t nginx:2.0 .'
 
       }
 
@@ -40,7 +40,7 @@ pipeline {
 
       steps {
 
-        sh 'docker push abhishek01231/nginx:1.0'
+        sh 'docker push abhishek01231/nginx:2.0'
 
       }
 

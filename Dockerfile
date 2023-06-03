@@ -4,9 +4,9 @@ LABEL maintainer="abhishek01231@gmail.com"
 
 RUN  apt-get -y update && apt-get -y install nginx
 
-COPY files/default /etc/nginx/sites-available/default
+COPY files/default
 
-COPY files/index.html /usr/share/nginx/html/index.html
+COPY files/index.html
 
 EXPOSE 80
 

@@ -1,6 +1,6 @@
 FROM ubuntu:18.04  
 
-LABEL maintainer="abhishek01231@gmail.com" 
+LABEL maintainer="abhishek01231" 
 
 RUN  apt-get -y update && apt-get -y install nginx
 
